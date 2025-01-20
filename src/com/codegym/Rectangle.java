@@ -3,7 +3,7 @@ package com.codegym;
 import com.codegym.resizeable.Resizeable;
 
 public class Rectangle extends Shape implements Resizeable {
-    private double width = 1.0;
+    protected double width = 1.0;
     private double length = 1.0;
 
     public Rectangle() {
